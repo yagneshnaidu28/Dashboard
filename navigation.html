@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creation of Navigation Bar</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        header a{
+            padding:10px 20px;
+            color: rgb(186, 36, 36);
+            text-decoration: none;
+            font-size: 18px;
+            transition: background 0.3s ease;
+        }
+        .icon{
+            text-decoration: double;
+            font-weight: 500;
+            font-size: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-right: 800px;
+        }
+        header a:hover{
+            background-color: black;
+            border-radius: 5px;
+        }
+        @media(max-width:800px) {
+            nav{
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            nav a{
+                display: block;
+                width: 100%;
+            }
+        }
+       
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="navigation.html" class="icon">Code With ME</a>
+        <a href="#">Home</a>
+        <a href="#">Content</a>
+        <a href="#">Code List</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+    </header>
+   
+
+</body>
+</html>
