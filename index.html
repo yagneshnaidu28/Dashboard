@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+        
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-family: 'Poppins',sans-serif;
+        }
+        body{
+            background-color: #867e7e;
+        }
+
+        .slide{
+            height:100%;
+            width: 180px;
+            position:absolute;
+            background-color: #fff;
+            transition: 0.5s ease;
+        }
+        h1{
+            color:#8000ff;
+            font-weight: 800;
+            
+            text-align: right;
+            padding: 10px 0;
+            padding-right: 30px;
+            pointer-events: none;
+        }
+
+        ul li a{
+            list-style: none;
+            color: #011a41;
+            font-weight: 500;
+            padding:15px;
+            display:block;
+            text-transform: capitalize;
+            text-decoration: none;
+            transition: 0.2s ease-out;
+            width:150px;
+            text-align:left;
+        }
+        
+    </style>
+</head>
+<body>
+    <label>
+        <div class="slide">
+            <h1>MENU</h1>
+            <ul class="list">
+                <li><a href="#"><i class="fas fa-tv"></i>dashboard</a></li>
+                <li><a href="#"><i class="fas fa-user"></i>profile</a></li>
+                <li><a href="#"><i class="fas fa-gripfire"></i>trending</a></li>
+                <li><a href="#"><i class="fas fa-comments"></i>messsgaes</a></li>
+                <li><a href="#"><i class="fas fa-folder"></i>file manager</a></li>
+                <li><a href="#"><i class="fas fa-address-book"></i>portfolio</a></li>
+                <li><a href="#"><i class="fas fa-heart"></i>saved</a></li>
+                <li><a href="#"><i class="fas fa-cogs"></i>settings</a></li>  
+            </ul>
+        </div>
+    </label>
+</body>
+</html>
